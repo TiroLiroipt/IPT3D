@@ -4,45 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IPT</title>
+    <title>Document</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <iframe src="" id="api-frame" allowfullscreen mozallowfullscreen="false" webkitallowfullscreen="false" width="640" height="480"></iframe>
+    <div class="container">
+      <div class="row">
+        <div class="col-7">
+          <iframe src="" id="api-frame" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" width="640" height="480"></iframe>
+        </div>
 
-    <div class="slides">
-      <!-- INTRODUCTION -->
-
-      <div id="annotation-0" class="slide active">
-        <h1>IPT</h1>
-        <iframe width="853" height="480" src="https://my.matterport.com/show/?m=nQrDDezY8Ki" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
-                <img class="annotation-img" src="./img/IPT.jpg" alt="frente do ipt" srcset="">
-        <p class="texto-descritivo">Conheça o <span id="link-test">teste</span> <a href="./matterport.html" target="_blank">clique aqui</a> IPT! Navegue pelo modelo ao lado e saiba o que é feito em cada prédio</p>
+        <div class="col-5">
+          <div id="annotation-0" class="slide active">
+            <h1>IPT</h1>
+            <img class="annotation-img" src="./img/IPT.jpg" alt="" srcset="">
+            <p>Conheça o IPT! Navegue pelo modelo ao lado e saiba o que é feito em cada prédio</p>
+          </div>
+          <div id="annotation-1" class="slide">
+            <h1>Prédio Adriano Marchini</h1>
+            <iframe width="853" height="480" src="https://my.matterport.com/show/?m=nQrDDezY8Ki" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
+            <p>Esse prédio é muito legal!</p>
+          </div>
+          <div id="annotation-2" class="slide">
+            <h1>Inteli</h1>
+            <img class="annotation-img"  src="./img/inteli.jpeg" alt="" srcset="">
+    
+          </div>
+        </div>
       </div>
-
-      <div id="annotation-1" class="slide">
-        <h1>Prédio Adriano Marchini</h1>
-        <img class="annotation-img"  src="./img/adriano.jpg" alt="" srcset="">
-      </div>
-
-      <div id="annotation-2" class="slide">
-        <h1>Inteli</h1>
-        <img class="annotation-img"  src="./img/inteli.jpeg" alt="" srcset="">
-
-      </div>
-
-      <div id="annotation-3" class="slide">
-        <h1>Bionano</h1>
-        <img class="annotation-img"  src="./img/bionano.jpg" alt="" srcset="">
-
-      </div>
-
-      <div id="annotation-4" class="slide">
-        <h1>CIMA</h1>
-        <img class="annotation-img"  src="./img/CIMA.gif" alt="" srcset="">
-      </div>
-
     </div>
 
     <script
@@ -52,6 +43,6 @@
     <script type="text/javascript" src="app.js"></script>
 
     <script src="https://labs.sketchfab.com/experiments/annotations-sync/js/vendors/gl-matrix.js"></script>
-    <script src="./links.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
