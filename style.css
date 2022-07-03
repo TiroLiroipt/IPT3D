@@ -56,6 +56,30 @@ h1 {
   margin-top: 0.5em;
 }
 
+main {
+  display: block;
+}
+
+#portrait-warning {
+  display: none;
+  text-align: center;
+}
+
+#portrait-warning > .card {
+  width: 80vw;
+  margin: 10vh auto;
+}
+
+@media (hover: none) and (orientation:portrait) {
+  #main {
+    display: none;
+  }
+
+  #portrait-warning {
+    display: block;
+  }
+  
+}
 /* #conteneur{
 width: 350px;
 height: 330px;
