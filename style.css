@@ -70,7 +70,7 @@ main {
   margin: 10vh auto;
 }
 
-@media (hover: none) and (orientation:portrait) {
+@media (hover: none), (max-width: 700px) and (orientation:portrait) {
   #main {
     display: none;
   }
