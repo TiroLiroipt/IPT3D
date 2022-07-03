@@ -1,6 +1,18 @@
 {
     "name": "IPT 3D",
     "short_name": "IPT 3D",
+    "icons": [
+        {
+          "src": "./icons/192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },        
+        {
+            "src": "./icons/512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+          }
+      ],
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
     "display": "fullscreen",
