@@ -19,8 +19,20 @@ h1 {
   top: 0;
   border: 0;
 }
+
+.barra-direita {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .slides {
   background: #fff;
+  flex-basis: 90%;
+}
+
+footer {
+  flex-basis: 10%;
 }
 
 .slide {
@@ -48,4 +60,24 @@ h1 {
 
 .annotation-img {
   width: 100%;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  margin: 20px;
+  text-align: end;
+  font-size: 25px;
+}
+
+footer p {
+  margin-top: 2px;
 }
